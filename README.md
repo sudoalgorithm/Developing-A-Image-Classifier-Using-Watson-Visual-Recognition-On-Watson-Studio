@@ -56,7 +56,10 @@ Watson Studio is a cloud based development and deployment environment for Machin
 ![](assets/image3.png)
 
 * If by some error in the server they are not created, they can be added from the drop-down list too via Watson Studio.
-* Project dashboard will be shown. That will have fields like `Assets`, `Notebooks` and `Models`
+* Project dashboard will be shown. That will have tabs like **Overview**, **Assets**, **Bookmarks**, **Access Control**, **Settings**.
+* Select the **Assets** tab.
+
+![](assets/image4.png)
 
 
 
