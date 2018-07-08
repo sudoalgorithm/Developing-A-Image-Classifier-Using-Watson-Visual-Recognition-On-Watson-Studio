@@ -119,6 +119,18 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image15.png)
 
+### Building the client side application (Android App).
+
+* Start Android Studio and create a new project.
+
+![](assets/image16.png)
+
+* Go back to your model in watson studio and click on **Implementation** tab.
+* Under the **Implementation** tab look for Java on the left hand side navigation drawer and select it. You will find the code required to communicate with the model.
+
+![](assets/image17.png)
+
+
 
 
 
