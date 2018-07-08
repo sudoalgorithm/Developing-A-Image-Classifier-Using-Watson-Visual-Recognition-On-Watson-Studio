@@ -121,7 +121,7 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ### Building the client side application (Android App).
 
-* Start Android Studio and create a new project.
+* Start **Android Studio** and create a **new project**.
 
 ![](assets/image16.png)
 
@@ -129,6 +129,12 @@ Watson Studio is a cloud based development and deployment environment for Machin
 * Under the **Implementation** tab look for Java on the left hand side navigation drawer and select it. You will find the code required to communicate with the model.
 
 ![](assets/image17.png)
+
+* In Android Studio under **Gradle Scripts/build.gradle (Module:app)**. Add ```implementation 'com.ibm.watson.developer_cloud:java-sdk:5.5.0'``` in the dependencies block.
+
+
+
+
 
 
 
