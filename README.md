@@ -80,9 +80,11 @@ Watson Studio is a cloud based development and deployment environment for Machin
 ![](assets/image7.png)
 
 * New dashboard will open with model names as **Default Custom Model** (we can edit it). Dashboard will show two tabs **My Classes** and **All Images**.
-* In the **My Classes** click on **Create a class**.
+* In the **My Classes** tab click on **Create a class** and create a class you want to classify. (Note:- class of an image, it relates to the object classification task. If you have to define coordinates of an object on the image, then it is the object detection task).
 
 ![](assets/image8.png)
+
+
 
 
 
