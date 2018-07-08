@@ -130,7 +130,16 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image17.png)
 
-* In Android Studio under **Gradle Scripts/build.gradle (Module:app)**. Add ```implementation 'com.ibm.watson.developer_cloud:java-sdk:5.5.0'``` in the dependencies block.
+* In Android Studio under **Gradle Scripts/build.gradle (Module:app)**. Add ```implementation 'com.ibm.watson.developer_cloud:java-sdk:5.5.0'``` in the **dependencies block** and click on **Sync Now**.
+
+* After the sync process is complete, go to **MainActivity** under the **java/package_name.project_name/** and add two global object
+1. VisualRecognition
+2. CameraHelper
+
+```
+VisualRecognition mVisualRecognition;
+CameraHelper mCameraHelper;
+```
 
 
 
