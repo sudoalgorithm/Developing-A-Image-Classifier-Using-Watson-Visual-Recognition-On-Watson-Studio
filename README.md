@@ -49,5 +49,13 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image2.png)
 
+* On selecting **Watson Tools** project tile, two services i.e **Object Storage** and **Watson Visual Recognition** will be created in your IBM cloud dashboard.
+
+* Enter **Project Name**, **details** (optional), choosing **Restrict who can be a collaborator** (optional). Notice on the side that **Object Storage** and **Watson Visual Recognition** services are selected.
+
+![]()
+* If by some error in the server they are not created, they can be added from the drop-down list too via Watson Studio.
+* Project dashboard will be shown. That will have fields like `Assets`, `Notebooks` and `Models`
+
 
 
