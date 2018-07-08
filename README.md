@@ -79,6 +79,14 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image7.png)
 
+* New dashboard will open with model names as **Default Custom Model** (we can edit it). Dashboard will show two tabs **My Classes** and **All Images**.
+* In the **My Classes** click on **Create a class**.
+
+![](assets/image8.png)
+
+
+
+
 
 
 
