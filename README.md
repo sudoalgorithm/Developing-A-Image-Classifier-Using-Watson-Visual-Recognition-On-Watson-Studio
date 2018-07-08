@@ -31,7 +31,22 @@ To complete this how-to it should take around 45 minutes.
 
 Watson Studio is a cloud based development and deployment environment for Machine Learning, Deep Learning, Data Governance and Data Expolaration. A platform build for business analyst, data engineer, data scientist and developer to simply there task with an intuitive UI and provide massive computing power. A platform where insights can be traced back to models, projects, notebooks and data sources and where model can evolve and automatically update themselves.
 
-* Navigate to datascience.ibm.com
+* Navigate to [datascience.ibm.com](https://www.ibm.com/cloud/watson-studio)
 
 ![](assets/image1.png)
+
+* Sign up on the IBM Cloud
+
+### Get Started on Watson Studio
+
+* Click on **Get Started** and you will be redirected to the Watson Studio dashboard.
+
+* An interactive menu will be shown **Get started with key tasks**.
+
+### Create Project
+
+* Click on New Project and select **Watson Tools**.
+![](assets/image2.png)
+
+
 
