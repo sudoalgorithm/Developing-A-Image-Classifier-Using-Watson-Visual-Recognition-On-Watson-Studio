@@ -68,6 +68,11 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image5.png)
 
+* Click on **browse** or simply **drag and drop** the data assets of your project.
+    (Note:- In case of Watson Visual Recognition project, have your data assets in a zip file).
+
+![](assets/image6.png)
+
 
 
 
