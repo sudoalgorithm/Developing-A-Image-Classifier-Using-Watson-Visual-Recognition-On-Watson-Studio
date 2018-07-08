@@ -29,3 +29,9 @@ To complete this how-to it should take around 45 minutes.
 
 ### Setting up Watson Studio for first time
 
+Watson Studio is a cloud based development and deployment environment for Machine Learning, Deep Learning, Data Governance and Data Expolaration. A platform build for business analyst, data engineer, data scientist and developer to simply there task with an intuitive UI and provide massive computing power. A platform where insights can be traced back to models, projects, notebooks and data sources and where model can evolve and automatically update themselves.
+
+* Navigate to datascience.ibm.com
+
+![](assets/image1.png)
+
