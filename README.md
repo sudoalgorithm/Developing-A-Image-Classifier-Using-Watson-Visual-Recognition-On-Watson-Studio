@@ -35,7 +35,7 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image1.png)
 
-* Sign up on the IBM Cloud
+* Sign in on the IBM Cloud
 
 ### Get Started on Watson Studio
 
@@ -46,6 +46,7 @@ Watson Studio is a cloud based development and deployment environment for Machin
 ### Create Project
 
 * Click on New Project and select **Watson Tools**.
+
 ![](assets/image2.png)
 
 
