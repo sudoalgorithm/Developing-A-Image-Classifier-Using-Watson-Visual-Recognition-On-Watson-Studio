@@ -213,6 +213,16 @@ mCameraHelper = new CameraHelper(this);
     }
 ```
 
+Congratulations! Now you have an android application communicating with the model built and deployed on Watson Studio.
+
+Link to the [Github Repo] contining the android code.
+
+## Summary
+
+In this how-to we learned how to build a image classification model using Watson Tool project on Watson Studio and then use the model to build and android application.
+
+
+
 
 
 
