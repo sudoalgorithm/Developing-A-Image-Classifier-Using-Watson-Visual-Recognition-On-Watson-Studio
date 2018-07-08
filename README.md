@@ -79,12 +79,17 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image7.png)
 
-* New dashboard will open with model names as **Default Custom Model** (we can edit it). Dashboard will show two tabs **My Classes** and **All Images**.
+* New dashboard will open with model names as **Default Custom Model**. Dashboard will show two tabs **My Classes** and **All Images**.
 * In the **My Classes** tab click on **Create a class** and create a class you want to classify. (Note:- class of an image, it relates to the object classification task).
 
 ![](assets/image8.png)
 
 ![](assets/image9.png)
+
+* Click on the created **class** and add the data asset to it by selected the data asset and clicking on **Add to model**.
+
+![assets/image10.png]
+
 
 
 
