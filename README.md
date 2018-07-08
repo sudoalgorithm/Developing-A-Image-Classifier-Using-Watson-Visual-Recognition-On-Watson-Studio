@@ -73,6 +73,10 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image6.png)
 
+### Create a Model
+
+
+
 
 
 
