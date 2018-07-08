@@ -148,6 +148,72 @@ mVisualRecognition.setApiKey(api_key);
 
 mCameraHelper = new CameraHelper(this);
 ```
+* Once the above parts are done, under **onActivityResult** method create a background thread for making the network call, parsing the result and displaying the result to the UI.
+
+```
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == CameraHelper.REQUEST_IMAGE_CAPTURE) {
+            final Bitmap photo = mCameraHelper.getBitmap(resultCode);
+            final File photoFile = mCameraHelper.getFile(resultCode);
+            ImageView preview = findViewById(R.id.img_view_main);
+            preview.setImageBitmap(photo);
+
+            AsyncTask.execute(new Runnable() {
+                @Override
+                public void run() {
+                    InputStream imagesStream = null;
+                    try {
+                        imagesStream = new FileInputStream(photoFile);
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                    ClassifyOptions classifyOptions = new ClassifyOptions.Builder()
+                            .imagesFile(imagesStream)
+                            .imagesFilename(photoFile.getName())
+                            .threshold((float) 0.6)
+                            .owners(Arrays.asList("me"))
+                            .build();
+                    ClassifiedImages result = mVisualRecognition.classify(classifyOptions).execute();
+                    Gson gson = new Gson();
+                    String json = gson.toJson(result);
+                    String name = null;
+                    try {
+                        JSONObject jsonObject = new JSONObject(json);
+                        JSONArray jsonArray = jsonObject.getJSONArray("images");
+                        JSONObject jsonObject1 = jsonArray.getJSONObject(0);
+                        JSONArray jsonArray1 = jsonObject1.getJSONArray("classifiers");
+                        JSONObject jsonObject2 = jsonArray1.getJSONObject(0);
+                        JSONArray jsonArray2 = jsonObject2.getJSONArray("classes");
+                        JSONObject jsonObject3 = jsonArray2.getJSONObject(0);
+                        name = jsonObject3.getString("class");
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    final String finalName = name;
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            TextView detectedObjects = findViewById(R.id.text_view_main);
+                            detectedObjects.setText(finalName);
+                            detectedObjects.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    startActivity(new Intent(MainActivity.this, RecommendationActivity.class));
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+
+        }
+    }
+```
+
+
 
 
 
