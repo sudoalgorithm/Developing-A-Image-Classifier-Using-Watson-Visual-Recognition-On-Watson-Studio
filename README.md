@@ -88,7 +88,7 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 * Click on the created **class** and add the data asset to it by selected the data asset and clicking on **Add to model**.
 
-![assets/image10.png]
+![](assets/image10.png)
 
 
 
