@@ -90,6 +90,11 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 ![](assets/image10.png)
 
+* Once data assets have been added to the respective classes click on **Train Model** button.
+
+![](assets/image11.png)
+
+* Process will take around 10-15 min to train the model for respective classes.
 
 
 
