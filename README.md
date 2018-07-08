@@ -140,6 +140,14 @@ Watson Studio is a cloud based development and deployment environment for Machin
 VisualRecognition mVisualRecognition;
 CameraHelper mCameraHelper;
 ```
+* Under the **onCreate** method in Main Activity, initialize the objects.
+
+```
+mVisualRecognition = new VisualRecognition("{version}");
+mVisualRecognition.setApiKey(api_key);
+
+mCameraHelper = new CameraHelper(this);
+```
 
 
 
