@@ -53,7 +53,8 @@ Watson Studio is a cloud based development and deployment environment for Machin
 
 * Enter **Project Name**, **details** (optional), choosing **Restrict who can be a collaborator** (optional). Notice on the side that **Object Storage** and **Watson Visual Recognition** services are selected.
 
-![]()
+![](assets/image3.png)
+
 * If by some error in the server they are not created, they can be added from the drop-down list too via Watson Studio.
 * Project dashboard will be shown. That will have fields like `Assets`, `Notebooks` and `Models`
 
