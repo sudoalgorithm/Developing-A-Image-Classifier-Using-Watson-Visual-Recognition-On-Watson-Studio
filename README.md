@@ -215,7 +215,7 @@ mCameraHelper = new CameraHelper(this);
 
 Congratulations! Now you have an android application communicating with the model built and deployed on Watson Studio.
 
-Link to the [Github Repo](https://github.com/sudoalgorithm/Developing-A-Image-Classifier-Using-Watson-Visual-Recognition-On-Watson-Studio) contining the android code.
+Link to the [Github Repo](https://github.com/sudoalgorithm/Developing-A-Image-Classifier-Using-Watson-Visual-Recognition-On-Watson-Studio-Android-App) contining the android code.
 
 ## Summary
 
